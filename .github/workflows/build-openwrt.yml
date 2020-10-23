@@ -25,7 +25,7 @@ on:
     types: started
 
 env:
-  REPO_URL: https://github.com/esirplayground/AutoBuild-OpenWrt
+  REPO_URL: git clone -b 19.07 --single-branch https://github.com/Lienol/openwrt openwrt19
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
